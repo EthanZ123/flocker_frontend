@@ -36,6 +36,7 @@ author: Manas, Lalita, Shriya, Ethan
     <h2>Your Pitch</h2>
     <textarea id="pitch-input" placeholder="Write your pitch here..."></textarea>
     <button id="submit-pitch">Submit Pitch</button>
+    <span id="fob-icon" title="bananan">🔑</span>
     <div id="pitch-display"></div>
 </section>
 
