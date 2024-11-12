@@ -31,6 +31,66 @@ author: Manas, Lalita, Shriya, Ethan
 <button id="generate-prompt">Generate Random Prompt</button>
 <div id="prompt-display"></div>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Button Example</title>
+    <style>
+        /* Style for the tiny button */
+        .hover-btn {
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect on the button */
+        .hover-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* The tooltip text */
+        .hover-btn .tooltip {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 12px;
+            transition: opacity 0.3s ease;
+            z-index: 1;
+            bottom: 120%;  /* Position the tooltip above the button */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Show tooltip on hover */
+        .hover-btn:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hover button with a tooltip -->
+    <button class="hover-btn">
+        Hover me!
+        <div class="tooltip">your balls</div>
+    </button>
+
+</body>
+</html>
+
+
 <!-- Pitch Submission Section -->
 <section id="pitch-section">
     <h2>Your Pitch</h2>
